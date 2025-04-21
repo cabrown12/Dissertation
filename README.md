@@ -16,9 +16,10 @@ Strategies Tested
 
 Two variations of each MA crossover strategy were implemented to assess the effect of Bayesian surprise signals:
 
-Surprise-Filtered Strategy
+Surprise-Filtered Strategy:
 Trades are only executed when a moving average crossover signal aligns with a detected Bayesian surprise in implied volatility. This acts as a filter, aiming to avoid trades in low-information environments.
-Surprise-Weighted Position Sizing Strategy
+
+Surprise-Weighted Position Sizing Strategy:
 All crossover signals are traded, but the position size is doubled when a Bayesian surprise is detected. This variation tests whether surprise signals can improve performance by scaling exposure based on the perceived information content of market conditions.
 Both strategies are compared against a standard crossover baseline to evaluate performance improvements in terms of returns and risk-adjusted metrics.
 
