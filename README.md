@@ -21,6 +21,7 @@ Trades are only executed when a moving average crossover signal aligns with a de
 
 Surprise-Weighted Position Sizing Strategy:
 All crossover signals are traded, but the position size is doubled when a Bayesian surprise is detected. This variation tests whether surprise signals can improve performance by scaling exposure based on the perceived information content of market conditions.
+
 Both strategies are compared against a standard crossover baseline to evaluate performance improvements in terms of returns and risk-adjusted metrics.
 
 Citation
